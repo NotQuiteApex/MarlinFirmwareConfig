@@ -671,9 +671,10 @@
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
     // TUNED WITH https://reprap.org/wiki/PID_Tuning
-    #define DEFAULT_Kp  23.12
-    #define DEFAULT_Ki   2.05
-    #define DEFAULT_Kd  65.34
+    // Tuned at 220 degrees C
+    #define DEFAULT_Kp  21.23
+    #define DEFAULT_Ki   1.90
+    #define DEFAULT_Kd  59.44
   #endif
 #endif
 
