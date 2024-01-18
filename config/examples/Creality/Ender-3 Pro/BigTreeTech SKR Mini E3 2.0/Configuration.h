@@ -1488,7 +1488,7 @@
  *     O-- FRONT --+
  */
 // OFFSETS PROVIDED BY https://printables.com/model/58601
-#define NOZZLE_TO_PROBE_OFFSET { -51, -12, -0.55 }
+#define NOZZLE_TO_PROBE_OFFSET { -51, -12, -0.55-1.8 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
